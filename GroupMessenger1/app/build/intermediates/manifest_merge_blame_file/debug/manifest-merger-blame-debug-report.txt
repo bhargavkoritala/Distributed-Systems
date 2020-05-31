@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.buffalo.cse.cse486586.groupmessenger1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="19" />
+9-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:7:5-66
+11-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:8:5-74
+12-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:8:22-72
+13    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+13-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:9:5-76
+13-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:9:22-74
+14
+15    <application
+15-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:11:5-27:19
+16        android:allowBackup="true"
+16-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:12:9-35
+17        android:debuggable="true"
+18        android:icon="@drawable/ic_launcher"
+18-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:13:9-45
+19        android:label="@string/app_name"
+19-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:14:9-41
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:15:9-40
+22        <activity
+22-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:16:9-24:20
+23            android:name="edu.buffalo.cse.cse486586.groupmessenger1.GroupMessengerActivity"
+23-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:17:13-92
+24            android:label="@string/app_name" >
+24-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:18:13-45
+25            <intent-filter>
+25-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:19:13-23:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:20:17-69
+26-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:20:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:22:17-77
+28-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:22:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:25:9-26:88
+33            android:name="edu.buffalo.cse.cse486586.groupmessenger1.GroupMessengerProvider"
+33-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:25:19-98
+34            android:authorities="edu.buffalo.cse.cse486586.groupmessenger1.provider" />
+34-->/home/bhargavkss/AndroidStudioProjects/GroupMessenger1/app/src/main/AndroidManifest.xml:26:13-85
+35    </application>
+36
+37</manifest>
